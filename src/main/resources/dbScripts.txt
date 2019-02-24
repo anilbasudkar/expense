@@ -1,0 +1,11 @@
+CREATE TABLE `expenses`.`user` (
+  `id` INT NOT NULL,
+  `userid` VARCHAR(45) NULL,
+  `password` VARCHAR(45) NULL,
+  `userfirstname` VARCHAR(45) NULL,
+  `userlastname` VARCHAR(45) NULL,
+  `useremailid` VARCHAR(45) NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE INDEX `userid_UNIQUE` (`userid` ASC));
+  
+  
